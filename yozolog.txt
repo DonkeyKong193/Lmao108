@@ -1,0 +1,15 @@
+
+ Exception:2021.11.20 11:42:21
+java.lang.NullPointerException: Attempt to invoke virtual method 'float b.t.d.a.getX()' on a null object reference
+	at emo.main.scrollview.WPSelectionHelper.mapToModel(Unknown Source:116)
+	at emo.main.scrollview.WPSelectionHelper.selectWord(Unknown Source:0)
+	at emo.main.scrollview.WPDocumentView.onLongPress(Unknown Source:47)
+	at android.view.GestureDetector.dispatchLongPress(GestureDetector.java:868)
+	at android.view.GestureDetector.access$300(GestureDetector.java:51)
+	at android.view.GestureDetector$GestureHandler.handleMessage(GestureDetector.java:314)
+	at android.os.Handler.dispatchMessage(Handler.java:107)
+	at android.os.Looper.loop(Looper.java:230)
+	at android.app.ActivityThread.main(ActivityThread.java:7880)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:526)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1034)
